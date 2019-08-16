@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="businessTravelProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/businessTravelProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="businessTravelProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="businessTravelProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="library" level="project" name="commons-collections-3.2.2" />
+          <element id="library" level="project" name="mybatis-3.4.1" />
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="mybatis-spring-1.3.1" />
+          <element id="library" level="project" name="ehcache-core-2.4.8" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.11" />
+          <element id="library" level="module" name="JUnit4" module-name="businessTravelProject" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.47-bin" />
+          <element id="library" level="project" name="log4j-1.2.17" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="taglibs-standard-jstlel-1.2.5" />
+          <element id="library" level="project" name="commons-beanutils-1.8.3" />
+          <element id="library" level="project" name="com.springsource.org.apache.commons.fileupload-1.2.0" />
+          <element id="library" level="project" name="com.springsource.org.apache.commons.dbcp-1.2.2.osgi" />
+          <element id="library" level="project" name="commons-fileupload-1.3.1" />
+          <element id="library" level="project" name="commons-io-1.3.2" />
+          <element id="library" level="project" name="json" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

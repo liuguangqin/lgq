@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lgq.vo.mapping.travel">
+
+    <insert id="insertTravel" parameterType="Travel" useGeneratedKeys="true" keyProperty="tid">
+        INSERT  INTO travel(seid,iid,title,sdate,edate,dest,audit,note,subdate)
+        VALUES (#{seid},#{iid},#{title},#{sdate},#{edate},#{dest},#{audit},#{note},#{subdate});
+    </insert>
+    <select id="findAll" resultType="Travel">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel;
+    </select>
+    <update id="updateTravel" parameterType="Travel" >
+        UPDATE  travel  SET iid=#{iid},title=#{title},sdate=#{sdate},edate=#{edate},dest=#{dest},audit=#{audit},note=#{note}
+        WHERE tid=#{tid} AND  seid=#{seid} AND audit=0 OR 9;
+    </update>
+    <select id="findByID" resultType="Travel" parameterType="Long">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel WHERE tid=#{tid};
+    </select>
+    <delete id="deleteTravel" parameterType="travel">
+        DELETE  FROM travel WHERE tid=#{tid}  AND (audit=9 OR  audit=2);
+    </delete>
+    <insert id="doCreateTravelEmp" parameterType="TravelEmp">
+         INSERT  INTO travel_emp(tid,eid) VALUES (#{tid},#{eid});
+    </insert>
+    <select id="findByAudit9" resultType="Travel" parameterType="Travel">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel WHERE audit=9;
+    </select>
+    <select id="findByAudit2" resultType="Travel" parameterType="Travel">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel WHERE audit=2;
+    </select>
+    <select id="findByAudit1" resultType="Travel" parameterType="Travel">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel WHERE audit=1;
+    </select>
+    <select id="findByAudit0" resultType="Travel" parameterType="Travel">
+        SELECT tid,seid,aeid,iid,title,sdate,edate,subdate,dest,audit,note,auddate,anote,ecount,total FROM travel WHERE audit=0;
+    </select>
+    <update id="doUpdateAudit" parameterType="Travel">
+        UPDATE  travel  SET audit=#{audit},auddate=#{auddate}
+        WHERE tid=#{tid} AND  audit=9;
+    </update>
+    <update id="doUpdateAuditTask" parameterType="date">
+        UPDATE travel SET  audit=3
+        WHERE audit=1 AND edate&lt;#{date};
+    </update>
+</mapper>

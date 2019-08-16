@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lgq.vo.emp">
+    <!--根据角色id查询其拥有的权限,根据角色名称查询出权限名称-->
+    <select id="findEname"  resultType="emp" >
+        SELECT ename,eid FROM emp
+    </select>
+    <select id="findAll" resultType="emp">
+        SELECT eid,ename,did,hiredate,sal,photo,password,phone,lid,ineid,locked,note FROM emp WHERE locked!=1;
+    </select>
+    <update id="updateByEid" parameterType="Emp">
+        UPDATE emp SET ename=#{ename},did=#{did},lid=#{lid},phone=#{phone},locked=#{locked} WHERE eid=#{eid};
+    </update>
+    <insert id="insertEmp" parameterType="Emp">
+        INSERT INTO emp(eid,ename,did,hiredate,sal,photo,password,phone,lid,ineid,locked,note) values
+        (#{eid},#{ename},#{did},#{hiredate},#{sal},#{photo},#{password},#{phone},#{lid},#{ineid},#{locked},#{note});
+    </insert>
+    <update id="updateLocked" parameterType="Emp">
+          UPDATE emp SET locked=1 WHERE eid=#{eid};
+    </update>
+    <select id="findByEid" resultType="Emp" parameterType="Long">
+         SELECT eid,ename,did,photo,phone,lid,locked,password FROM emp WHERE eid=#{eid};
+    </select>
+    <select id="findByEid1" resultType="Emp" parameterType="Long">
+         SELECT did,lid FROM emp WHERE eid=#{eid};
+    </select>
+</mapper>

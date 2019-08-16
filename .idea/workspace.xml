@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="businessTravelProject:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e0f4cda-d94a-4b31-8db5-f21fc40159d0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="businessTravelProject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DateConnection.Properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DateConnection.Properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-task.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-task.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dept-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/dept-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-222">
+              <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+              <folding>
+                <element signature="e#7507#7514#1#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TravelAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lgq/action/TravelAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1450">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="total-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/total-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2166">
+              <caret line="126" column="59" selection-start-line="126" selection-start-column="59" selection-end-line="126" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="travel-create.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/travel-create.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-152">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmpAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lgq/action/EmpAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>delete-</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/impl/DeptDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/Type.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/Type.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/TravelCost.java" />
+        <option value="$PROJECT_DIR$/web/travel-create.jsp" />
+        <option value="$PROJECT_DIR$/web/left.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/User.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/User.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/web/travel-edit.jsp" />
+        <option value="$PROJECT_DIR$/web/total-list.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/TravelCost.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/action/TravelAction.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/ITravelDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/Travel.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/ITravelService.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/impl/TravelDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/impl/TravelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/spring-task.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/task/TravelTask.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/Emp.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/emp-add.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/IEmpDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/impl/EmpDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/impl/EmpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/IEmpService.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/action/EmpAction.java" />
+        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/DeptRole.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/RoleAction.java" />
+        <option value="$PROJECT_DIR$/src/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/Emp.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/RoleAction.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/vo/mapping/DeptRole.xml" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/impl/LevelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/service/ILevelService.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/impl/LevelDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/lgq/dao/ILevelDao.java" />
+        <option value="$PROJECT_DIR$/web/travel-list.jsp" />
+        <option value="$PROJECT_DIR$/web/dept-list.jsp" />
+        <option value="$PROJECT_DIR$/web/header.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lgq/action/LevelAction.java" />
+        <option value="$PROJECT_DIR$/web/emp-list.jsp" />
+        <option value="$PROJECT_DIR$/src/DateConnection.Properties" />
+        <option value="$PROJECT_DIR$/src/com/lgq/Realm/memberRealm.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="969" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lgq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lgq" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="businessTravelProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="businessTravelProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554369778409" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../伟哥哥精心搜集的各种常用jar/json" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.5114943" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.travel.Dao.Impl" />
+      <recent name="cn.travel.Service.back.Impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\businessTravelProject\web" />
+      <recent name="D:\IdeaProjects\businessTravelProject\web\WEB-INF\TravelBusiness" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lgq.service.impl" />
+      <recent name="com.lgq.vo" />
+      <recent name="cn.travel.Service.back" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\刘广琴\Desktop\businessTravelProject\lib" />
+      <recent name="C:\Users\刘广琴\Desktop\businessTravelProject\web" />
+      <recent name="C:\Users\刘广琴\Desktop\businessTravelProject\web\assets\js" />
+      <recent name="C:\Users\刘广琴\Desktop\businessTravelProject\src\com\lgq\vo\mapping" />
+      <recent name="D:\IdeaProjects\businessTravelProject\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.0">
+    <configuration name="IDeptDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="businessTravelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.travel.Dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.travel.Dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.travel.Dao.Impl.IDeptDaoImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IDeptDaoImplTest.findDeptById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="businessTravelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.travel.Dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.travel.Dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.travel.Dao.Impl.IDeptDaoImplTest" />
+      <option name="METHOD_NAME" value="findDeptById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IDeptServiceBackImplTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="businessTravelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.travel.Service.back.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.travel.Service.back.Impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.travel.Service.back.Impl.IDeptServiceBackImplTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IEmpDaoImplTest.findEmpByEid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="businessTravelProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.travel.Dao.Impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.travel.Dao.Impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.travel.Dao.Impl.IEmpDaoImplTest" />
+      <option name="METHOD_NAME" value="findEmpByEid" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Tomcat 7.0.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="businessTravelProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_businessTravelProject" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50066" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="businessTravelProject:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 7.0.0" />
+      <item itemvalue="JUnit.IDeptDaoImplTest" />
+      <item itemvalue="JUnit.IDeptDaoImplTest.findDeptById" />
+      <item itemvalue="JUnit.IDeptServiceBackImplTest.list" />
+      <item itemvalue="JUnit.IEmpDaoImplTest.findEmpByEid" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IEmpDaoImplTest.findEmpByEid" />
+        <item itemvalue="JUnit.IDeptDaoImplTest.findDeptById" />
+        <item itemvalue="JUnit.IDeptDaoImplTest" />
+        <item itemvalue="JUnit.IDeptServiceBackImplTest.list" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e0f4cda-d94a-4b31-8db5-f21fc40159d0" name="Default Changelist" comment="" />
+      <created>1553702237819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553702237819</updated>
+      <workItem from="1553702282130" duration="3279000" />
+      <workItem from="1553755290440" duration="8620000" />
+      <workItem from="1553764611128" duration="507000" />
+      <workItem from="1553768835167" duration="7415000" />
+      <workItem from="1553778571392" duration="1329000" />
+      <workItem from="1553786491187" duration="6069000" />
+      <workItem from="1553828724706" duration="1484000" />
+      <workItem from="1553852166562" duration="13472000" />
+      <workItem from="1553872299054" duration="6804000" />
+      <workItem from="1553935898630" duration="12939000" />
+      <workItem from="1553949829834" duration="1199000" />
+      <workItem from="1553952162236" duration="16000" />
+      <workItem from="1553960426378" duration="3125000" />
+      <workItem from="1554004456523" duration="14964000" />
+      <workItem from="1554084494947" duration="5390000" />
+      <workItem from="1554105921862" duration="5182000" />
+      <workItem from="1554117916158" duration="6242000" />
+      <workItem from="1554182328513" duration="10691000" />
+      <workItem from="1554201224333" duration="7105000" />
+      <workItem from="1554216184887" duration="966000" />
+      <workItem from="1554267743803" duration="3765000" />
+      <workItem from="1554276702196" duration="4020000" />
+      <workItem from="1554287137090" duration="9208000" />
+      <workItem from="1554300525071" duration="2073000" />
+      <workItem from="1554360862925" duration="7811000" />
+      <workItem from="1554375714296" duration="793000" />
+      <workItem from="1554790141501" duration="5322000" />
+      <workItem from="1555120117260" duration="22899000" />
+      <workItem from="1555222555654" duration="10687000" />
+      <workItem from="1555317101811" duration="4147000" />
+      <workItem from="1555331952980" duration="3113000" />
+      <workItem from="1555379016987" duration="719000" />
+      <workItem from="1555395112972" duration="21903000" />
+      <workItem from="1555458793336" duration="1383000" />
+      <workItem from="1555501240821" duration="6252000" />
+      <workItem from="1555585704622" duration="7835000" />
+      <workItem from="1555639227634" duration="3135000" />
+      <workItem from="1555658849145" duration="10530000" />
+      <workItem from="1555718989458" duration="12152000" />
+      <workItem from="1555745275575" duration="7113000" />
+      <workItem from="1555758841717" duration="2922000" />
+      <workItem from="1555827639453" duration="6701000" />
+      <workItem from="1555844640637" duration="6517000" />
+      <workItem from="1555920283905" duration="11525000" />
+      <workItem from="1556330836983" duration="4113000" />
+      <workItem from="1556345249382" duration="9437000" />
+      <workItem from="1556361529246" duration="3717000" />
+      <workItem from="1556877582717" duration="8000" />
+      <workItem from="1556877948576" duration="94000" />
+      <workItem from="1557532958479" duration="245000" />
+      <workItem from="1558429042523" duration="334000" />
+      <workItem from="1559548846206" duration="270000" />
+      <workItem from="1562119346002" duration="905000" />
+      <workItem from="1562571561220" duration="1239000" />
+      <workItem from="1562585694967" duration="43000" />
+      <workItem from="1564664972183" duration="1596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 16m 26s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 16m 39s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 18m 40s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 19m 58s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 20m 05s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 23m 32s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IDeptDaoImplTest_findDeptById - 2019.03.28 at 21h 25m 48s.xml">
+      <configuration name="IDeptDaoImplTest.findDeptById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IEmpDaoImplTest_findEmpByEid - 2019.03.30 at 19h 55m 04s.xml">
+      <configuration name="IEmpDaoImplTest.findEmpByEid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IEmpDaoImplTest_findEmpByEid - 2019.03.30 at 19h 56m 43s.xml">
+      <configuration name="IEmpDaoImplTest.findEmpByEid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IEmpDaoImplTest_findEmpByEid - 2019.03.30 at 20h 02m 06s.xml">
+      <configuration name="IEmpDaoImplTest.findEmpByEid" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="311324000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49932975" weight="0.32909605" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.32909605" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
+      <window_info id="Structure" order="1" sideWeight="0.50808316" side_tool="true" weight="0.20442359" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49932975" weight="0.32831737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32909605" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4870041" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49191687" visible="true" weight="0.2109375" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" sideWeight="0.50635594" side_tool="true" weight="0.19101876" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.3294702" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/ITravelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/Travel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/task/TravelTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload/24b77caf-d90f-43f7-9ab1-1117904954aa.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/Level.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="116" column="18" selection-start-line="116" selection-start-column="18" selection-end-line="116" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/impl/UserDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/RoleMappering.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/impl/EmpDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/IEmpDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/impl/EmpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/IUserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/IEmpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/DeptRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/User.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/RoleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/Emp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/DeptRole.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/RoleAction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="102" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/action/UserAction.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/ILevelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/service/impl/LevelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/impl/LevelDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/dao/ILevelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/emp-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="133" column="39" lean-forward="true" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/table-font-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/left.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.47-bin.jar!/com/mysql/jdbc/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11790">
+          <caret line="556" selection-start-line="556" selection-end-line="556" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/Realm/memberRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/action/LevelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/vo/mapping/Dept.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/emp-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="188" column="52" selection-start-line="188" selection-start-column="52" selection-end-line="188" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-834">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/action/DeptAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DateConnection.Properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-task.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/travel-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="296" column="36" selection-start-line="296" selection-start-column="36" selection-end-line="296" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dept-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-222">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding>
+            <element signature="e#7507#7514#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/action/EmpAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lgq/action/TravelAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1450">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/total-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="126" column="59" selection-start-line="126" selection-start-column="59" selection-end-line="126" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/travel-create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>businessTravelProject:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>businessTravelProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>json</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5114943" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

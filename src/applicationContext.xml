@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                          http://www.springframework.org/schema/beans/spring-beans.xsd
+                          http://www.springframework.org/schema/context
+                          http://www.springframework.org/schema/context/spring-context.xsd
+                          http://www.springframework.org/schema/task
+                          http://www.springframework.org/schema/task/spring-task.xsd
+                          http://www.springframework.org/schema/aop
+                          http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd
+                          http://www.springframework.org/schema/mvc
+                          http://www.springframework.org/schema/mvc/spring-mvc.xsd"
+                          >
+    <context:annotation-config/>
+    <context:component-scan base-package="com.lgq"/>
+     <!--在web容器启动后.action的数据都会交由dispathcher类处理,dispatcherServlet类需要在application.xml
+     进行配置-->
+    <mvc:annotation-driven/>
+    <mvc:default-servlet-handler/>
+    <!--在springMVC-servlet.xml中配置<mvc:default-servlet-handler />后，会在Spring MVC上下文中定义一个
+    org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler，它会像一个检查员，
+    对进入DispatcherServlet的URL进行筛查，如果发现是静态资源的请求，就将该请求转由Web应用服务器默认的Servlet
+    处理，如果不是静态资源的请求，才由DispatcherServlet继续处理。-->
+
+
+
+
+    <!--在dateSource中,每一次的调用都需要进行开关,那么性能就不能最大化体现,所以在此时出现了c3p0数据库
+    连接池,在连接池中,才能将性能发挥到最大化-->
+    <!--在全文中引入properties文件-->
+    <context:property-placeholder location="classpath:DateConnection.Properties" />
+    <!--配置c3p0连接池-->
+    <!--也就是测试类中的dateSorce datesouce=context.getBean("datesource")-->
+    <bean id="dateSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--${}是引入properties文件内容的-->
+        <property name="driverClass" value="${db.driver}"/>
+        <property name="jdbcUrl" value="${db.url}"/>
+        <property name="user" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+        <property name="maxPoolSize" value="${pool.max}"/>
+        <property name="minPoolSize" value="${pool.min}"/>
+        <property name="initialPoolSize" value="${pool.init}"/>
+        <property name="maxIdleTime" value="${pool.idle}"/>
+    </bean>
+    <!--配置Jdbc模板(springTemplate),也就是测试中的jdbcTemple jt= new jdbcTemplate(datesorce)-->
+    <bean id="JdbcTemple" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dateSource"/>
+    </bean>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 上传尺寸为B ，这里是1M -->
+        <property name="maxUploadSize" value="1048576"/>
+    </bean>
+
+
+
+    <!--配置spring-Mybatis整合jar包,此操作完成的功能是把Mybatis的sqlSessionFactory交由Spring管理-->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--将c3P0连接池引入MyBatis以便获得数据库连接-->
+        <property name="dataSource" ref="dateSource"/>
+        <!--引入Mybatis配置文件-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+    </bean>
+
+
+
+
+
+    <!--配置安全管理器-->
+    <bean id="scurityManage" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!--配置你需要使用的Realms-->
+        <property name="realm" ref="memberRealm"/>
+        <!--配置缓存-->
+        <!--<property name="cacheManager" ref="cacheManager"/>-->
+        <!--配置session管理器-->
+       <!-- <property name="sessionManager" ref="sessionManager"/>-->
+        <!--配置remberMe管理器-->
+        <!--<property name="rememberMeManager" ref="rememberMeManager"/>-->
+    </bean>
+
+
+    <!--配置shiro过滤器-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--配置一个安全过滤器-->
+        <property name="securityManager" ref="scurityManage"/>
+
+        <property name="successUrl" value="/Member/success.action"/>
+        <!--出现错误的时候跳转路径-->
+        <property name="loginUrl" value="/login.jsp"/>
+
+        <!--配置Shiro中要使用的过滤器-->
+
+
+        <!--shiro里面需要针对所有的路径进行配置,所有的配置都要经过文本的形式设置
+        本质上也就是shiro.ini中的[urls]-->
+        <property name="filterChainDefinitions">
+            <!--在此shiro过滤路径中,authc代表必须登陆才可以,rememberMe无效-->
+            <!--user,代表只要登陆过,记住密码也可以-->
+            <value>
+                /travelList.action=user
+                /WEB-INF/Welcome.jsp=user
+            </value>
+        </property>
+    </bean>
+
+
+
+    <!--设置安全访问路径,主要是在实际开发中web_inf目录下是最安全的,此举是方便进行网页查找操作-->
+    <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        &lt;!&ndash;匹配前辍&ndash;&gt;
+        <property name="prefix" value="/WEB-INF/TravelBusiness/"/>
+        &lt;!&ndash;匹配后辍&ndash;&gt;
+        <property name="suffix" value=".jsp"/>
+    </bean>-->
+
+
+    <!--配置shiro的生命周期由Spring进行控制-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+    <!--自定义filter-->
+    <!--在action控制层中,反复写入登陆验证的重复代码十分麻烦,且耦合度较高
+    例如:Subject subject= SecurityUtils.getSubject();
+        UsernamePasswordToken token=new UsernamePasswordToken(mid,password);
+        subject.login(token)
+        那么自动登陆验证应时而生
+        shiro中formAuthenticationFilter类负责-->
+
+
+
+
+
+    <!--shiro框架配置annotation操作,项目为了方便操作,普遍annotation只在控制层控制方法进行使用
+    很少在项目网页路径上检测-->
+    <!--1.启动Annotation在shiro中相关操作-->
+    <bean id="defaultAdvisorAutoProxyCreator"
+          class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor">
+        <!--进行目标代理类处理控制-->
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+    <!--2.针对安全管理Aop实现也就是启动spring代理shiro的scurityManager-->
+    <bean id="authorizationAttributeSourceAdvisor"
+          class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="scurityManage"/>
+    </bean>
+
+
+    <!--配置shiro缓存配置,因为在shiro中没进行一个单独网页或者业务的进行,都需要一次权限和角色的认证(数据库查询操作)
+    当网站用户基数较大时候,服务器着实吃不消,那么把验证的操作缓存在内存中,当下次在执行此次操作时候,便从
+    缓存中直接操作即可-->
+    <!--1.控制encacheManage类--> <!--2.将此类配置入sercurityManage-->
+    <bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:ehcache.xml"/>
+    </bean>
+
+
+
+    <!--定义shiro会话管理-->
+    <!--1.定义sessionID生成管理器-->
+    <bean id="sessionIdGenerator" class="org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator"/>
+    <!--2.配置sesionDao操作处理-->
+    <bean id="sessionDAO" class="org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO">
+        <!--配置缓存管理的名字,此名字可以随意-->
+        <property name="activeSessionsCacheName" value="sheng-Cache"/>
+        <!--定义该Dao操作中生成的ID的sessionID生成器-->
+        <property name="sessionIdGenerator" ref="sessionIdGenerator"/>
+    </bean>
+    <!--3.配置需要向cookie中保存数据的模板-->
+    <bean id="sessionIDCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg value="sheng-ID"/>
+        <!--保证该系统不会被外部的程序进行干扰cookie-->
+        <property name="httpOnly" value="true"/>
+        <!--定义cookie过期的时间,单位为秒,如果为-1,那么表示关闭即销毁cookie-->
+        <property name="maxAge" value="100"/>
+    </bean>
+     <!--定义一个属于RememberCookie的cookie模板-->
+    <bean id="rememberIDCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+        <constructor-arg value="remember-ID"/>
+        <!--保证该系统不会被外部的程序进行干扰cookie-->
+        <property name="httpOnly" value="true"/>
+        <!--定义cookie过期的时间,单位为秒,如果为-1,那么表示关闭即销毁cookie-->
+        <property name="maxAge" value="100"/>
+    </bean>
+    <!--RemberMe功能类-->
+    <bean id="rememberMeManager" class="org.apache.shiro.web.mgt.CookieRememberMeManager">
+          <!--定义要使用的cookie模板-->
+        <property name="cookie" ref="rememberIDCookie"/>
+    </bean>
+    <!--4.定义session管理类-->
+    <bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
+        <!--定义全局session失效的时间,此设置会覆盖web.xml中的-->
+        <property name="globalSessionTimeout" value="100000"/>
+        <!--删除所有无效的session对象,此时session对象保存在了内存里-->
+        <property name="deleteInvalidSessions" value="true"/>
+        <!--需要允许此扫描器进行扫描-->
+        <property name="sessionValidationSchedulerEnabled" value="true"/>
+        <!--定义Dao操作类,负责增删改查-->
+        <property name="sessionDAO" ref="sessionDAO"/>
+        <!--需要将这些处理好的session保存在cookie之中,那么就需要模板,引入定义好的模板-->
+        <property name="sessionIdCookie" ref="sessionIDCookie"/>
+        <property name="sessionIdCookieEnabled" value="true"/>
+    </bean>
+
+     <import resource="spring-task.xml" />
+
+</beans>
+
+
